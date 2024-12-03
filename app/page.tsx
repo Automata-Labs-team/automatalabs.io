@@ -68,7 +68,7 @@ export default function Home() {
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-fuchsia-600">
                                 open source
                             </span><br />
-                            <span className="whitespace-nowrap">libraries to help you build</span><br />
+                            <span>libraries to help you build</span><br />
                             <span className="text-transparent bg-clip-text bg-gradient-to-r from-orange-300 to-purple-600">
                                 with AI
                             </span>
