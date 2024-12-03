@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/react"
 import "./globals.css";
 import { Space_Grotesk } from "next/font/google";
 
@@ -23,6 +24,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <Analytics />
             <body
                 className={`antialiased ${space.className}`}
             >
