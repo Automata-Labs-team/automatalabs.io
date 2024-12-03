@@ -1,6 +1,6 @@
 'use client';
 import Image from 'next/image';
-import LogoSVG from '../public/logo-bear.svg';
+import LogoSVG from '../public/icon.svg';
 
 interface LogoProps {
     className?: string;
